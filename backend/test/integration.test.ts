@@ -8,6 +8,6 @@ describe("dummy", () => {
       .set("Accept", "application/json")
       .expect("Content-Type", /json/)
       .expect(200);
-    expect(response.body.message).toEqual("Hello, World!");
+    expect(response.body.message).toEqual("Hello, Worldd!");
   });
 });
